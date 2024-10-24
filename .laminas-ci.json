@@ -18,5 +18,8 @@
                 "command": "composer require psr/simple-cache:^2.0 && vendor/bin/phpunit"
             }
         }
-    ]
+    ],
+    "ignore_php_platform_requirements": {
+        "8.4": true
+    }
 }
